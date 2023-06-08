@@ -4,3 +4,10 @@ function add(a,b,c){
 }
 let a = add(1,2,54)
 console.log(a)
+
+//variables are just like containers 
+
+let a2=67
+console.log(a2)
+a2='parth'
+console.log(a2)     
