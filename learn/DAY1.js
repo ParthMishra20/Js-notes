@@ -165,3 +165,6 @@ console.log(!(a==b && a>b))*/
 
 let a = prompt("Enter your age")
 a = Number.parseInt(a)
+if(a>0){
+    alert("You are a kid")
+}
