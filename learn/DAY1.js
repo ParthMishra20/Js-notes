@@ -111,7 +111,7 @@ console.log(dict['interlanguage'])*/
 
 //OPERATORS
 
-
+/* ARTHERMATIC OPERATORS
 let a=5
 let b=6
 console.log("a + b =",a+b)
@@ -123,4 +123,40 @@ console.log("a ** b =",a**b)
 console.log("a++ =",a++)
 console.log("a-- =",a--)
 console.log("++a =",++a)
-console.log("--a =",--a)
+console.log("--a =",--a)*/
+
+/*ASSIGNMENT OPERATORS
+a=8
+a+=2
+console.log(a)
+a-=2
+console.log(a)
+a*=2
+console.log(a)
+a/=2
+console.log(a)
+a%=2
+console.log(a)
+a**=2
+console.log(a)*/
+
+/*COMPARISON OPERATORS8
+let a=6
+let b=7
+console.log(a==b)
+console.log(a!=b)
+console.log(a>b)
+console.log(a<b)
+console.log(a>=b)
+console.log(a<=b)
+c=5
+d="5" 
+console.log(c===d)
+console.log(c!==d)*/
+
+/*LOGICAL OPERATORS*/
+let a=5
+let b=6
+console.log(a==b && a>b)
+console.log(a==b || a>b)
+console.log(!(a==b && a>b))
