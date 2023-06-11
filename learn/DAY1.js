@@ -154,9 +154,13 @@ d="5"
 console.log(c===d)
 console.log(c!==d)*/
 
-/*LOGICAL OPERATORS*/
+/*LOGICAL OPERATORS
 let a=5
 let b=6
 console.log(a==b && a>b)
 console.log(a==b || a>b)
-console.log(!(a==b && a>b))
+console.log(!(a==b && a>b))*/
+
+//conditional statements
+let a=prompt("Enter your age")
+a=Number.parseInt(a)
