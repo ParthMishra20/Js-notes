@@ -14,7 +14,7 @@ else{
 let a = prompt("Hey whats you age?");
 a = Number.parseInt(a); // Converting the string to a number
 if(a<0){
-  alert("This is an invalid age");
+  alert("This is an invalid age"); 
 }
 else if(a<9){
   alert("You are a kid and you cannot even think of driving");
@@ -28,4 +28,4 @@ else{
 console.log("Done")
 */
 a=10
-console.log(a<18?"ok" :"notok ")
+console.log(a<9?"9k" :"notok ")
