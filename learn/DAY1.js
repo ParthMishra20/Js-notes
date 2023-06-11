@@ -162,9 +162,8 @@ console.log(a==b || a>b)
 console.log(!(a==b && a>b))*/
 
 //conditional statements
-
-let a = prompt("Enter your age")
+/*let a = prompt("Enter your age")
 a = Number.parseInt(a)
 if(a>0){
     alert("You are a kid")
-}
+}*/
