@@ -68,11 +68,23 @@ while(i<n){
 }*/
 
 //DO WHILE LOOP
-let n = prompt("enter value of n")
+/*let n = prompt("enter value of n")
 n=Number.parseInt(n)
 let i = 0;
 do{
   console.log(i)
   i++;
 }
-while (i<n)
+while (i<n)*/
+
+//FUNCTION
+function avg(x,y){
+  console.log("done")
+  return(x + y)/2
+}
+let x = prompt("enter number 1")
+x = Number.parseInt(x)
+let y = prompt("enter number 2")
+y = Number.parseInt(y)
+
+console.log("sum is ",avg(x,y))
