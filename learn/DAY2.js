@@ -78,6 +78,7 @@ do{
 while (i<n)*/
 
 //FUNCTION
+/*
 function avg(x,y){
   console.log("done")
   return(x + y)/2
@@ -87,4 +88,14 @@ x = Number.parseInt(x)
 let y = prompt("enter number 2")
 y = Number.parseInt(y)
 
-console.log("sum is ",avg(x,y))
+console.log("AVERAGE is ",avg(x,y))
+*/
+
+let marks = {
+  Parth:90,
+  Uttara:90
+}
+for(let i=0;i<Object.keys(marks).lenght;i++){
+
+  console.log("The marks of"+Object.keys(marks)+"are"+marks[Object.keys(marks)[i]])
+}  
