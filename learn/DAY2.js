@@ -96,6 +96,3 @@ let marks = {
   Uttara:90
 }
 for(let i=0;i<Object.keys(marks).lenght;i++){
-
-  console.log("The marks of"+Object.keys(marks)+"are"+marks[Object.keys(marks)[i]])
-}  
