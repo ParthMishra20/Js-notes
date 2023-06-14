@@ -27,5 +27,42 @@ else{
 }
 console.log("Done")
 */
-a=10
-console.log(a<9?"9k" :"notok ")
+
+//ternary operator
+/*a=10
+console.log(a<9?"9k" :"not ok ")*/
+
+//Types of Loops
+
+//FOR LOOP
+/*for(let i=0;i<5;i++){
+  console.log(i)
+}*/
+
+//FOR IN LOOP
+/*let obj={
+  p:1,
+  a:2,
+  r:3,
+  t:4,
+  h:5
+}
+for (let a in obj){
+  console.log("letter "+a+" is at position "+obj[a])
+}*/
+
+//FOR OF LOOP
+/*
+for(let b of "PARTH"){
+  console.log(b)
+}
+*/
+
+//WHILE LOOPS
+let n=prompt("enter value of n")
+n=Number.parseInt()
+let i =0;
+while(i<n){
+  console.log(i)
+  i++;
+}
