@@ -59,10 +59,20 @@ for(let b of "PARTH"){
 */
 
 //WHILE LOOPS
-let n=prompt("enter value of n")
-n=Number.parseInt()
-let i =0;
+/*let n = prompt("enter value of n")
+n=Number.parseInt(n)
+let i = 0;
 while(i<n){
   console.log(i)
   i++;
+}*/
+
+//DO WHILE LOOP
+let n = prompt("enter value of n")
+n=Number.parseInt(n)
+let i = 0;
+do{
+  console.log(i)
+  i++;
 }
+while (i<n)
