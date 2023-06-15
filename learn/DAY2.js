@@ -91,8 +91,8 @@ y = Number.parseInt(y)
 console.log("AVERAGE is ",avg(x,y))
 */
 
-let marks = {
-  Parth:90,
-  Uttara:90
-}
-for(let i=0;i<Object.keys(marks).lenght;i++){
+//STRINGS 
+let name = "PARTH"
+console.log(name.length)
+let name2 = 'parth'
+console.log(name2)
