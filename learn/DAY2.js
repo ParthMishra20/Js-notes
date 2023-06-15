@@ -77,7 +77,7 @@ do{
 }
 while (i<n)*/
 
-//FUNCTION
+//FUNCTION-set of statement that perform a task
 /*
 function avg(x,y){
   console.log("done")
@@ -91,22 +91,33 @@ y = Number.parseInt(y)
 console.log("AVERAGE is ",avg(x,y))
 */
 
-//STRINGS 
+//STRINGS-object that represent sequence of characters 
 /*let name = "PARTH"
 console.log(name.length)
 let name2 = 'parth'
 console.log(name2)*/
 
-//METHODS
-let name = "Parth"
-console.log(name.length)
-console.log(name.toUpperCase())
-console.log(name.toLowerCase())
-console.log(name.slice(2, 4))
-console.log(name.slice(2))
-console.log(name.replace("Har", "Per"))
-let friend = "Naman"
+//METHODS-actions which can be performed on objects
+/*
+let namee = "Parth"
+console.log(namee.length)
+console.log(namee.toUpperCase())
+console.log(namee.toLowerCase())
+console.log(namee.slice(2, 4))
+console.log(namee.slice(2))
+console.log(namee.replace("Parth", "PM"))
+let friend = "PRIME"
 console.log(name.concat(" is a friend of ", friend, " Ok"))
-let friend2 = "      Meena        "
+let friend2 = "      REVEAR        "
 console.log(friend2)
 console.log(friend2.trim())
+*/
+
+//ARRAYS-collection of sum items
+
+let marks=[91,91,92,95,93,false,"P"]
+console.log(marks)
+console.log(marks.length)
+marks[0]=92
+console.log(marks)
+console.log(typeof marks)
