@@ -92,7 +92,21 @@ console.log("AVERAGE is ",avg(x,y))
 */
 
 //STRINGS 
-let name = "PARTH"
+/*let name = "PARTH"
 console.log(name.length)
 let name2 = 'parth'
-console.log(name2)
+console.log(name2)*/
+
+//METHODS
+let name = "Parth"
+console.log(name.length)
+console.log(name.toUpperCase())
+console.log(name.toLowerCase())
+console.log(name.slice(2, 4))
+console.log(name.slice(2))
+console.log(name.replace("Har", "Per"))
+let friend = "Naman"
+console.log(name.concat(" is a friend of ", friend, " Ok"))
+let friend2 = "      Meena        "
+console.log(friend2)
+console.log(friend2.trim())
