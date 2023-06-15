@@ -115,9 +115,13 @@ console.log(friend2.trim())
 
 //ARRAYS-collection of sum items
 
-let marks=[91,91,92,95,93,false,"P"]
+/*let marks=[91,91,92,95,93,false,"P"]
 console.log(marks)
 console.log(marks.length)
 marks[0]=92
 console.log(marks)
-console.log(typeof marks)
+console.log(typeof marks)*/
+
+let num = [1,2,3,4,5]
+let b = num.toString()
+console.log(b)
