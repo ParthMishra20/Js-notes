@@ -122,7 +122,7 @@ marks[0]=92
 console.log(marks)
 console.log(typeof marks)*/
 
-let num = [1,2,3,4,5]
+/*let num = [1,2,3,4,5]
 let b = num.toString()
 console.log(b)
 let c = num.join("_")
@@ -135,4 +135,37 @@ console.log(num.shift())
 console.log(num)
 console.log(num.unshift(7))
 console.log(num)
-console.log(delete num[0])
+console.log(delete num[0])*/
+
+//FOR LOOP IN ARRAY
+/*let num = [1,2,3,4,5]
+for(let i=0;i<num.length;i++){
+  console.log(num[i])
+}
+
+num.forEach((element)=>{                    //helpful when we make react apps
+  console.log(element*element)
+})*/
+
+//ARRAY.from
+/*let name = "PARTH"
+let arr = Array.from(name)
+console.log(arr)*/
+
+//for of
+/*let num = [1,2,3,4,5]
+for(let i of num){
+  console.log(i)
+}*/
+
+//for in
+/*let num = [1,2,3,4,5]
+for(let i in num){
+  console.log(i)
+}*/
+
+//MAP FILTER
+let arr=[12,10,20,4]
+arr.map((element)=>{
+  console.log(element)
+})
