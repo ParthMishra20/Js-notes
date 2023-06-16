@@ -164,8 +164,26 @@ for(let i in num){
   console.log(i)
 }*/
 
-//MAP FILTER
-let arr=[12,10,20,4]
-arr.map((element)=>{
-  console.log(element)
+//MAP-makes a new array 
+
+/*let arr=[12,10,20,4]
+let a = arr.map((value,index,array)=>{
+  console.log(value,index,array)
+  return value+1
+})*/
+
+//FILTER-Creates a new array for those values which passes the test
+/*let arr = [12,10,20,4]
+let a2 = arr.filter((value)=>{
+  return value<10
 })
+console.log(a2)*/
+
+//Array reduce
+let arr=[12,10,20,4]
+let arr2=arr.reduce((a1,a2)=>{
+  return a1+a2
+})
+console.log(arr2)
+
+
