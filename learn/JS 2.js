@@ -180,10 +180,12 @@ let a2 = arr.filter((value)=>{
 console.log(a2)*/
 
 //Array reduce
-let arr=[12,10,20,4]
+/*let arr=[12,10,20,4]
 let arr2=arr.reduce((a1,a2)=>{
   return a1+a2
 })
-console.log(arr2)
-
+console.log(arr2)*/
+//explaination for this is that it will take 12 and 10 as a1 and a2 and then their result would be 22
+//then it would take 22 and 20 as a1 and a2 then their result would be 42
+//then it would take 42 and 4 as a1 and a2 then their result would be 46
 
