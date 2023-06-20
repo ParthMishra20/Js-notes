@@ -189,3 +189,8 @@ console.log(arr2)*/
 //then it would take 22 and 20 as a1 and a2 then their result would be 42
 //then it would take 42 and 4 as a1 and a2 then their result would be 46
 
+
+for (let step = 0; step < 5; step++) {
+  // Runs 5 times, with values of step 0 through 4.
+  console.log("Walking east one step");
+}
