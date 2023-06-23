@@ -1,1 +1,2 @@
-ReactDOM.render(<h1>REACT</h1>,document.getElementById("root"))
+ReactDOM.render(<p>REACT</p>,
+document.getElementById("root"))

@@ -1,34 +1,34 @@
-/*console.log("This program adds 1,2 and 54")
+console.log("This program adds 1,2 and 54")
 function add(a,b,c){
     return a+b+c;
 }
 let a = add(1,2,54)
-console.log(a)*/
+console.log(a)
 
 //variables are just like containers 
 
-/*let a2=67
+let a2=67
 console.log(a2)
 a2='parth'
-console.log(a2)*/     
+console.log(a2)     
 
 //var is used to declare a variable it was used before es6 update
 
-/*console.log("Javascript is a dynamic language")
-var b='parth'
+console.log("Javascript is a dynamic language")
+var b2='parth'
 {
     var b= 'parth2'
-    console.log(b)
+    console.log(b2)
 }
-console.log(b)
+console.log(b2)
 //diff between var and let
 console.log("Javascript is a dynamic language")
-let c='parth'
+let c2='parth'
 {
     let c= 'parth2'
-    console.log(c)
+    console.log(c2)
 }
-console.log(c)*/
+console.log(c2)
 
 //you can neither declare a variable with the same name in the same scope nor you can redeclare a variable with the same name in the same scope 
 
@@ -48,7 +48,7 @@ U-Undefined
 
 // Object is non primitive Data Type
 
-/*let e=null;
+let e=null;
 let e1=345;
 let e2='parth';
 let e3=true;
@@ -56,7 +56,7 @@ let e4=BigInt("567")
 let e5=Symbol("I am a nice symbol")
 let e6=undefined;
 console.log(e,e1,e2,e3,e4,e5,e6)
-console.log(typeof(e),typeof(e1),typeof(e2),typeof(e3),typeof(e4),typeof(e5),typeof(e6))*/
+console.log(typeof(e),typeof(e1),typeof(e2),typeof(e3),typeof(e4),typeof(e5),typeof(e6))
 
 //Objects 
 
