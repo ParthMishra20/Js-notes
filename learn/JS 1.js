@@ -71,9 +71,9 @@ console.log(item["Shubham"])
 
 
 
-//OPERATORS
+console.log("OPERATORS")
 
-/* ARTHERMATIC OPERATORS*/
+console.log("ARTHERMATIC OPERATORS")
 let a3=5
 let b3=6
 console.log("a + b =",a3+b3)
@@ -87,48 +87,48 @@ console.log("a-- =",a3--)
 console.log("++a =",++a3)
 console.log("--a =",--a3)
 
-/*ASSIGNMENT OPERATORS
-a=8
-a+=2
-console.log(a)
-a-=2
-console.log(a)
-a*=2
-console.log(a)
-a/=2
-console.log(a)
-a%=2
-console.log(a)
-a**=2
-console.log(a)*/
+console.log("ASSIGNMENT OPERATORS")
+a4=8
+a4+=2
+console.log(a4)
+a4-=2
+console.log(a4)
+a4*=2
+console.log(a4)
+a4/=2
+console.log(a4)
+a4%=2
+console.log(a4)
+a4**=2
+console.log(a4)
 
-/*COMPARISON OPERATORS8
-let a=6
-let b=7
-console.log(a==b)
-console.log(a!=b)
-console.log(a>b)
-console.log(a<b)
-console.log(a>=b)
-console.log(a<=b)
-c=5
-d="5" 
-console.log(c===d)
-console.log(c!==d)*/
+console.log("COMPARISON OPERATORS")
+let a5=6
+let b5=7
+console.log(a5==b5)
+console.log(a5!=b5)
+console.log(a5>b5)
+console.log(a5<b5)
+console.log(a5>=b5)
+console.log(a5<=b5)
+c5=5
+d5="5" 
+console.log(c5===d5)
+console.log(c5!==d5)
 
-/*LOGICAL OPERATORS
-let a=5
-let b=6
-console.log(a==b && a>b)
-console.log(a==b || a>b)
-console.log(!(a==b && a>b))*/
+console.log("LOGICAL OPERATORS")
+let a6=5
+let b6=6
+console.log(a6==b6 && a6>b6)
+console.log(a6==b6 || a6>b)
+console.log(!(a6==b6 && a6>b6))
 
-//conditional statements
-/*let a = prompt("Enter your age")
-a = Number.parseInt(a)
-if(a>0){
+console.log("conditional statements")
+let a7 = prompt("Enter your age")
+a7 = Number.parseInt(a7)
+if(a7>0){
     alert("You are a kid")
-}*/
+}
 
 
   
